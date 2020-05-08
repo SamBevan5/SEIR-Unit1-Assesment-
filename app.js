@@ -15,7 +15,7 @@ $display.append(number);
 $add.on(`click`, (event) => {
     const inputValue = $input.val();
 
-    if (inputValue == ""){
+    if (inputValue == "" || inputValue == "type a number here"){
         alert(`type in a number PLEASE!`);
     }else {
         number = number + parseInt($input.val());
