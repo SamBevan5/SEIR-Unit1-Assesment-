@@ -21,9 +21,35 @@ main-container{
 }
 
 .button-container {
-    margin-top: 30px;
+    margin-top: 30px
+
+}
+
+form {
+    display: flex;
+    width: 25vh;
+    justify-content: space-between;
 }
 
 .display {
     font-size: 3em;
+}
+
+#add, #subtract {
+    height: 5vh;
+    width: 5vh;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    background-color: cornflowerblue;
+    box-shadow: 0 0 1px 1px;
+    cursor: pointer;
+}
+
+#add:hover, #subtract:hover {
+    background-color: rgb(39, 39, 126);
+    box-shadow: 0 0 1px 1px inset;
+}
+
+#input {
+    height: 5vh;
 }
