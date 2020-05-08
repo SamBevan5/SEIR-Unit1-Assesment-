@@ -41,12 +41,14 @@ form {
     border-radius: 5px;
     font-size: 1.5rem;
     background-color: cornflowerblue;
+    color: white;
     box-shadow: 0 0 1px 1px;
     cursor: pointer;
 }
 
 #add:hover, #subtract:hover {
-    background-color: rgb(39, 39, 126);
+    background-color: white;
+    color: cornflowerblue;
     box-shadow: 0 0 1px 1px inset;
 }
 
