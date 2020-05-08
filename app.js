@@ -9,9 +9,10 @@ const $subtract = $(`#subtract`);
 const $display = $(`.display`);
 let number = 0;
 
+//add 0 as the start value
 $display.append(number);
 
-
+//add the typed number to the current number
 $add.on(`click`, (event) => {
     const inputValue = $input.val();
 
@@ -31,7 +32,7 @@ $add.on(`click`, (event) => {
     }
     
 });
-
+//subtract the typed number to the current number
 $subtract.on(`click`, (event) => {
     const inputValue = $input.val();
 
@@ -51,6 +52,7 @@ $subtract.on(`click`, (event) => {
     }
 });
 
+//sets input as empty when clicked on so user can type from a blank slate
 $input.on(`click`, () => {
     $input.val(``)
 })
