@@ -2,6 +2,10 @@
     /* border: 1px solid cornflowerblue; */
 }
 
+body {
+    background-color: cornsilk;
+}
+
 main-container{
     height: 50vh;
     width: 100vw;
@@ -9,4 +13,17 @@ main-container{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: cornsilk;
+}
+
+.input { 
+    text-align: center;
+}
+
+.button-container {
+    margin-top: 30px;
+}
+
+.display {
+    font-size: 3em;
 }

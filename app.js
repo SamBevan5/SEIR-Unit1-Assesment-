@@ -16,6 +16,12 @@ $add.on(`click`, (event) => {
     $display.empty();
     $display.append(number);
     event.preventDefault();
+    if (number < 0) {
+        $display.css(`color`, `red`);
+    }
+    if (number >= 0) {
+        $display.css(`color`, `black`);
+    }
     
 });
 
@@ -24,4 +30,10 @@ $subtract.on(`click`, () => {
     $display.empty();
     $display.append(number);
     event.preventDefault();
+    if (number < 0) {
+        $display.css(`color`, `red`);
+    }
+    if (number >= 0) {
+        $display.css(`color`, `black`);
+    }
 });
